@@ -1,0 +1,11 @@
+version: "3.1" # optional since v1.27.0
+services:
+  whatsapprest:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: whatsapprest
+    container_name: whatsapprest
+    tty: true
+    ports:
+      - "127.0.0.1:80:80"

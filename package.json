@@ -1,0 +1,30 @@
+{
+  "name": "whatsapprest",
+  "version": "0.0.1",
+  "description": "A simple RESTful API for WhatsApp",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "auth": "nodemon auth.js --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xacnio/WhatsappRest.git"
+  },
+  "author": "Alperen Çetin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xacnio/WhatsappRest/issues"
+  },
+  "homepage": "https://github.com/Xacnio/WhatsappRest#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.0",
+    "@supercharge/request-ip": "^1.1.2",
+    "commander": "^7.2.0",
+    "dotenv": "^9.0.2",
+    "envfile": "^6.14.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "node-machine-id": "^1.1.12"
+  }
+}
